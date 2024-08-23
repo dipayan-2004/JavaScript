@@ -14,3 +14,22 @@ let functiond= function(){
 
 console.log(typeof obj );
 console.log( a );
+
+let info1 ={
+    name:"Dipayan Dey",
+    age: 20,
+}
+console.log(info1.name);
+
+let info2 ={
+    name:"soumojit dutta",
+    age: 20,
+}
+console.log(info2.name);
+
+
+info1=info2     // info1 address values will replaced by info2
+console.log(info1.name);
+console.log(info2.name);
+
+// all reference type datatypes is stored in Heap memory
