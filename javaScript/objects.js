@@ -33,3 +33,19 @@ console.log(info1.name);
 console.log(info2.name);
 
 // all reference type datatypes is stored in Heap memory
+
+let personalData={
+     full_name:{
+            firstName:"dipayan" ,
+            lastName: "dey",
+    },
+    email:{
+        email: "dipayan334@gmail.com",
+        mob: "982******1",
+    }
+
+}
+//we can use nesting of objects..
+// now to access that---
+console.log(personalData.full_name.firstName);
+console.log((personalData.full_name.firstName+" "+ personalData.full_name.lastName));
